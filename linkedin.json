@@ -1,0 +1,72 @@
+{
+  "Name": "linkedin",
+  "CreationDate": "2024-8-15",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://www.linkedin.com/jobs/search/?currentJobId=3890671475&distance=25&geoId=101022442&keywords=ho&origin=JOBS_HOME_KEYWORD_HISTORY&refresh=true",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//input[@id=\"jobs-search-box-keyword-id-ember30\"]",
+      "Value": "na",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"global-nav-search\"]/div/div[2]/button[1]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=(//button[@aria-label=\"Easy Apply to  Supervisor GIS QA/QC &amp; Data Analyst at Zameen.com\"])[1]",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//input[@class=\" artdeco-text-input--input\"]",
+      "Value": "03021212122",
+      "Description": ""
+    },
+    {
+      "Command": "waitForElementPresent",
+      "Target": "xpath=//input[@type='file']",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "xpath=//input[@type='file']",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XClick",
+      "Target": "xpath=//input[@type='file']",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "C:\\Users\\waqas\\download\\ss.pdf",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "executeScript_Sandbox // document.evaluate(\\\"(//button[@role='link'])[1]\\\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
